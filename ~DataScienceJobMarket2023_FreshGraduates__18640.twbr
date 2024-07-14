@@ -1,0 +1,2560 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0618.0924                               -->
+<workbook original-version='18.1' source-build='2024.1.4 (20241.24.0618.0924)' source-platform='win' version='18.1' xml:base='https://localhost' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location derived-from='https://vizhub/workbooks/DataScienceJobMarket2023_FreshGraduates?rev=1.0' id='DataScienceJobMarket2023_FreshGraduates' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='worksheet'>
+      <format attr='font-size' value='8' />
+    </style-rule>
+    <style-rule element='title'>
+      <format attr='font-size' value='15' />
+    </style-rule>
+    <style-rule element='dash-title'>
+      <format attr='font-size' value='18' />
+    </style-rule>
+    <style-rule element='story-title'>
+      <format attr='font-size' value='18' />
+      <format attr='font-weight' value='bold' />
+    </style-rule>
+    <style-rule element='tooltip'>
+      <format attr='font-size' value='10' />
+    </style-rule>
+    <style-rule element='all'>
+      <format attr='font-family' value='Trebuchet MS' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Personal Expenditure' datatype='real' default-format='C1033%' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='57978.637318659326'>
+        <calculation class='tableau' formula='57978.637318659326' />
+        <range max='65469.0' min='39154.0' />
+      </column>
+      <column caption='Parameter 2' datatype='integer' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='3214'>
+        <calculation class='tableau' formula='3214' />
+        <range max='40000' min='1' />
+      </column>
+    </datasource>
+    <datasource caption='DataScienceJM' inline='true' name='federated.089y9wl05ule4y165vf2k0wuli4y' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DataScienceJM' name='textscan.06v2m5e004ghmu13hs5t10d171dl'>
+            <connection class='textscan' directory='G:/My Drive/WORK/APPLY/Portfolio Projects' filename='DataScienceJM.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='string' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Skills10]' />
+            <value name='[Skills11]' />
+            <value name='[Skills12]' />
+            <value name='[Skills13]' />
+            <value name='[Skills14]' />
+            <value name='[Skills15]' />
+            <value name='[Skills16]' />
+            <value name='[Skills17]' />
+            <value name='[Skills18]' />
+            <value name='[Skills19]' />
+            <value name='[Skills1]' />
+            <value name='[Skills20]' />
+            <value name='[Skills21]' />
+            <value name='[Skills22]' />
+            <value name='[Skills2]' />
+            <value name='[Skills3]' />
+            <value name='[Skills4]' />
+            <value name='[Skills5]' />
+            <value name='[Skills6]' />
+            <value name='[Skills7]' />
+            <value name='[Skills8]' />
+            <value name='[Skills9]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[DataScienceJM.csv].[Skills10]' />
+              <field name='[DataScienceJM.csv].[Skills11]' />
+              <field name='[DataScienceJM.csv].[Skills12]' />
+              <field name='[DataScienceJM.csv].[Skills13]' />
+              <field name='[DataScienceJM.csv].[Skills14]' />
+              <field name='[DataScienceJM.csv].[Skills15]' />
+              <field name='[DataScienceJM.csv].[Skills16]' />
+              <field name='[DataScienceJM.csv].[Skills17]' />
+              <field name='[DataScienceJM.csv].[Skills18]' />
+              <field name='[DataScienceJM.csv].[Skills19]' />
+              <field name='[DataScienceJM.csv].[Skills1]' />
+              <field name='[DataScienceJM.csv].[Skills20]' />
+              <field name='[DataScienceJM.csv].[Skills21]' />
+              <field name='[DataScienceJM.csv].[Skills22]' />
+              <field name='[DataScienceJM.csv].[Skills2]' />
+              <field name='[DataScienceJM.csv].[Skills3]' />
+              <field name='[DataScienceJM.csv].[Skills4]' />
+              <field name='[DataScienceJM.csv].[Skills5]' />
+              <field name='[DataScienceJM.csv].[Skills6]' />
+              <field name='[DataScienceJM.csv].[Skills7]' />
+              <field name='[DataScienceJM.csv].[Skills8]' />
+              <field name='[DataScienceJM.csv].[Skills9]' />
+            </group>
+          </groups>
+          <relation connection='textscan.06v2m5e004ghmu13hs5t10d171dl' name='DataScienceJM.csv' table='[DataScienceJM#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='ID' ordinal='1' />
+              <column datatype='string' name='Job' ordinal='2' />
+              <column datatype='string' name='Jobs_Group' ordinal='3' />
+              <column datatype='string' name='Profile' ordinal='4' />
+              <column datatype='string' name='Remote' ordinal='5' />
+              <column datatype='string' name='Company' ordinal='6' />
+              <column datatype='string' name='State' ordinal='7' />
+              <column datatype='integer' name='ExpenditurePerCapita' ordinal='8' />
+              <column datatype='real' name='Low_Salary' ordinal='9' />
+              <column datatype='real' name='High_Salary' ordinal='10' />
+              <column datatype='real' name='Mean_Salary' ordinal='11' />
+              <column datatype='string' name='Education_level' ordinal='12' />
+              <column datatype='string' name='Skills1' ordinal='13' />
+              <column datatype='string' name='Skills2' ordinal='14' />
+              <column datatype='string' name='Skills3' ordinal='15' />
+              <column datatype='string' name='Skills4' ordinal='16' />
+              <column datatype='string' name='Skills5' ordinal='17' />
+              <column datatype='string' name='Skills6' ordinal='18' />
+              <column datatype='string' name='Skills7' ordinal='19' />
+              <column datatype='string' name='Skills8' ordinal='20' />
+              <column datatype='string' name='Skills9' ordinal='21' />
+              <column datatype='string' name='Skills10' ordinal='22' />
+              <column datatype='string' name='Skills11' ordinal='23' />
+              <column datatype='string' name='Skills12' ordinal='24' />
+              <column datatype='string' name='Skills13' ordinal='25' />
+              <column datatype='string' name='Skills14' ordinal='26' />
+              <column datatype='string' name='Skills15' ordinal='27' />
+              <column datatype='string' name='Skills16' ordinal='28' />
+              <column datatype='string' name='Skills17' ordinal='29' />
+              <column datatype='string' name='Skills18' ordinal='30' />
+              <column datatype='string' name='Skills19' ordinal='31' />
+              <column datatype='string' name='Skills20' ordinal='32' />
+              <column datatype='string' name='Skills21' ordinal='33' />
+              <column datatype='string' name='Skills22' ordinal='34' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='string' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Skills10]' />
+            <value name='[Skills11]' />
+            <value name='[Skills12]' />
+            <value name='[Skills13]' />
+            <value name='[Skills14]' />
+            <value name='[Skills15]' />
+            <value name='[Skills16]' />
+            <value name='[Skills17]' />
+            <value name='[Skills18]' />
+            <value name='[Skills19]' />
+            <value name='[Skills1]' />
+            <value name='[Skills20]' />
+            <value name='[Skills21]' />
+            <value name='[Skills22]' />
+            <value name='[Skills2]' />
+            <value name='[Skills3]' />
+            <value name='[Skills4]' />
+            <value name='[Skills5]' />
+            <value name='[Skills6]' />
+            <value name='[Skills7]' />
+            <value name='[Skills8]' />
+            <value name='[Skills9]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[DataScienceJM.csv].[Skills10]' />
+              <field name='[DataScienceJM.csv].[Skills11]' />
+              <field name='[DataScienceJM.csv].[Skills12]' />
+              <field name='[DataScienceJM.csv].[Skills13]' />
+              <field name='[DataScienceJM.csv].[Skills14]' />
+              <field name='[DataScienceJM.csv].[Skills15]' />
+              <field name='[DataScienceJM.csv].[Skills16]' />
+              <field name='[DataScienceJM.csv].[Skills17]' />
+              <field name='[DataScienceJM.csv].[Skills18]' />
+              <field name='[DataScienceJM.csv].[Skills19]' />
+              <field name='[DataScienceJM.csv].[Skills1]' />
+              <field name='[DataScienceJM.csv].[Skills20]' />
+              <field name='[DataScienceJM.csv].[Skills21]' />
+              <field name='[DataScienceJM.csv].[Skills22]' />
+              <field name='[DataScienceJM.csv].[Skills2]' />
+              <field name='[DataScienceJM.csv].[Skills3]' />
+              <field name='[DataScienceJM.csv].[Skills4]' />
+              <field name='[DataScienceJM.csv].[Skills5]' />
+              <field name='[DataScienceJM.csv].[Skills6]' />
+              <field name='[DataScienceJM.csv].[Skills7]' />
+              <field name='[DataScienceJM.csv].[Skills8]' />
+              <field name='[DataScienceJM.csv].[Skills9]' />
+            </group>
+          </groups>
+          <relation connection='textscan.06v2m5e004ghmu13hs5t10d171dl' name='DataScienceJM.csv' table='[DataScienceJM#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='ID' ordinal='1' />
+              <column datatype='string' name='Job' ordinal='2' />
+              <column datatype='string' name='Jobs_Group' ordinal='3' />
+              <column datatype='string' name='Profile' ordinal='4' />
+              <column datatype='string' name='Remote' ordinal='5' />
+              <column datatype='string' name='Company' ordinal='6' />
+              <column datatype='string' name='State' ordinal='7' />
+              <column datatype='integer' name='ExpenditurePerCapita' ordinal='8' />
+              <column datatype='real' name='Low_Salary' ordinal='9' />
+              <column datatype='real' name='High_Salary' ordinal='10' />
+              <column datatype='real' name='Mean_Salary' ordinal='11' />
+              <column datatype='string' name='Education_level' ordinal='12' />
+              <column datatype='string' name='Skills1' ordinal='13' />
+              <column datatype='string' name='Skills2' ordinal='14' />
+              <column datatype='string' name='Skills3' ordinal='15' />
+              <column datatype='string' name='Skills4' ordinal='16' />
+              <column datatype='string' name='Skills5' ordinal='17' />
+              <column datatype='string' name='Skills6' ordinal='18' />
+              <column datatype='string' name='Skills7' ordinal='19' />
+              <column datatype='string' name='Skills8' ordinal='20' />
+              <column datatype='string' name='Skills9' ordinal='21' />
+              <column datatype='string' name='Skills10' ordinal='22' />
+              <column datatype='string' name='Skills11' ordinal='23' />
+              <column datatype='string' name='Skills12' ordinal='24' />
+              <column datatype='string' name='Skills13' ordinal='25' />
+              <column datatype='string' name='Skills14' ordinal='26' />
+              <column datatype='string' name='Skills15' ordinal='27' />
+              <column datatype='string' name='Skills16' ordinal='28' />
+              <column datatype='string' name='Skills17' ordinal='29' />
+              <column datatype='string' name='Skills18' ordinal='30' />
+              <column datatype='string' name='Skills19' ordinal='31' />
+              <column datatype='string' name='Skills20' ordinal='32' />
+              <column datatype='string' name='Skills21' ordinal='33' />
+              <column datatype='string' name='Skills22' ordinal='34' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>Job</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jobs_Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Jobs_Group]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>Jobs_Group</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profile</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Profile]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>Profile</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Remote</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Remote]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>Remote</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ExpenditurePerCapita</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ExpenditurePerCapita]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>ExpenditurePerCapita</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Low_Salary</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Low_Salary]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>Low_Salary</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High_Salary</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[High_Salary]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>High_Salary</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mean_Salary</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mean_Salary]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>Mean_Salary</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education_level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Education_level]</local-name>
+            <parent-name>[DataScienceJM.csv]</parent-name>
+            <remote-alias>Education_level</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Calculation_1074952962651189250:qk]&quot;' value='Disposable Income' />
+          <alias key='&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:ExpenditurePerCapita:qk]&quot;' value='Expenditure Per Capita' />
+          <alias key='&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Mean_Salary:qk]&quot;' value='Salary' />
+        </aliases>
+      </column>
+      <column caption='Check Exp' datatype='boolean' name='[Calculation_1074952962645217281]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[ExpenditurePerCapita]&lt;=[Parameters].[Parameter 1]' />
+      </column>
+      <column caption='Calculated Disposable Income' datatype='real' name='[Calculation_1074952962651189250]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Mean_Salary]-[Parameters].[Parameter 1]' />
+      </column>
+      <column caption='Disposable Income' datatype='real' name='[Calculation_317503794640572418]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Mean_Salary])-AVG([ExpenditurePerCapita])' />
+      </column>
+      <column caption='CountDistinctJob' datatype='integer' name='[Calculation_403353666586476544]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([ID])' />
+      </column>
+      <column caption='Education level' datatype='string' name='[Education_level]' role='dimension' type='nominal' />
+      <column caption='Expenditure Per Capita' datatype='integer' name='[ExpenditurePerCapita]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+      <column caption='High Salary' datatype='real' name='[High_Salary]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Jobs Group (group) 1]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Jobs_Group]' default='&quot;Other&quot;' new-bin='true'>
+          <bin default-name='true' value='&quot;Data Analyst&quot;'>
+            <value>&quot;Data Analyst&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='Top Job group' datatype='string' name='[Jobs Group (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Jobs_Group]' default='&quot;Other&quot;' new-bin='true'>
+          <bin default-name='true' value='&quot;Data Analyst&quot;'>
+            <value>&quot;Data Analyst&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='Jobs Group' datatype='string' name='[Jobs_Group]' role='dimension' type='nominal' />
+      <column caption='Low Salary' datatype='real' hidden='true' name='[Low_Salary]' role='measure' type='quantitative' />
+      <column caption='Mean Salary' datatype='real' name='[Mean_Salary]' role='measure' type='quantitative' />
+      <column caption='Skill' datatype='string' name='[Pivot Field Values]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills10]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills11]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills12]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills13]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills14]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills15]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills16]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills17]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills18]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills19]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills1]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills20]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills21]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills22]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills2]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills3]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills4]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills5]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills6]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills7]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills8]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Skills9]' role='dimension' type='nominal' />
+      <column caption='Is it California?' datatype='string' name='[State (group)]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <calculation class='categorical-bin' column='[State]' default='&quot;No&quot;' new-bin='true'>
+          <bin default-name='false' value='&quot;Yes&quot;'>
+            <value>&quot;California&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='DataScienceJM.csv' datatype='table' name='[__tableau_internal_object_id__].[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1074952962651189250]' derivation='Avg' name='[avg:Calculation_1074952962651189250:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ExpenditurePerCapita]' derivation='Avg' name='[avg:ExpenditurePerCapita:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Mean_Salary]' derivation='Avg' name='[avg:Mean_Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Mean_Salary]' derivation='None' name='[none:Mean_Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1074952962651189250]' derivation='Sum' name='[sum:Calculation_1074952962651189250:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ExpenditurePerCapita]' derivation='Sum' name='[sum:ExpenditurePerCapita:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1]' derivation='Sum' name='[sum:F1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[High_Salary]' derivation='Sum' name='[sum:High_Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Low_Salary]' derivation='Sum' name='[sum:Low_Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Mean_Salary]' derivation='Sum' name='[sum:Mean_Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_317503794640572418]' derivation='User' name='[usr:Calculation_317503794640572418:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Jobs Group (group),Jobs Group)' hidden='true' name='[Action (Jobs Group (group),Jobs Group)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Jobs Group (group) 1]' />
+          <groupfilter function='level-members' level='[Jobs_Group]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Jobs Group)' hidden='true' name='[Action (Jobs Group)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Jobs_Group]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (State)' hidden='true' name='[Action (State)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[State]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Top Job group,Job Position)' hidden='true' name='[Action (Top Job group,Job Position)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Jobs Group (group)]' />
+          <groupfilter function='level-members' level='[Jobs_Group]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='Data/TableauTemp/#TableauTemp_0j2sevr1xsycx01bfxk520cjbr83.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/14/2024 08:48:03 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23733</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ID</remote-alias>
+              <ordinal>1</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23733</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Job]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job</remote-alias>
+              <ordinal>2</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7687</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Jobs_Group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Jobs_Group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Jobs_Group</remote-alias>
+              <ordinal>3</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Profile</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Profile]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Profile</remote-alias>
+              <ordinal>4</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Remote</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Remote]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Remote</remote-alias>
+              <ordinal>5</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Company</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company</remote-alias>
+              <ordinal>6</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9785</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>7</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>141</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ExpenditurePerCapita</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ExpenditurePerCapita]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ExpenditurePerCapita</remote-alias>
+              <ordinal>8</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>141</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>High_Salary</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[High_Salary]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>High_Salary</remote-alias>
+              <ordinal>9</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5193</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mean_Salary</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Mean_Salary]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mean_Salary</remote-alias>
+              <ordinal>10</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5587</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Education_level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Education_level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Education_level</remote-alias>
+              <ordinal>11</ordinal>
+              <family>DataScienceJM.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pivot Field Names</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pivot Field Names]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pivot Field Names</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Pivot</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pivot Field Values</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pivot Field Values]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pivot Field Values</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Pivot</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>212</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-hidden-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[Jobs Group (group)]' type='palette'>
+            <map to='#0055ff'>
+              <bucket>&quot;Data Analyst&quot;</bucket>
+            </map>
+            <map to='#0055ff'>
+              <bucket>&quot;True&quot;</bucket>
+            </map>
+            <map to='#e1e1e1'>
+              <bucket>&quot;False&quot;</bucket>
+            </map>
+            <map to='#e1e1e1'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[State (group)]' type='palette'>
+            <map to='#757575'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#e1e1e1'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#0055ff'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Calculation_1074952962651189250:qk]&quot;</bucket>
+            </map>
+            <map to='#0055ff'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_317503794640572418:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[sum:ExpenditurePerCapita:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[__tableau_internal_object_id__].[cnt:Jobs_Final.csv_C2F1A2A12ECB4A9784E0EEE87F4B9F9F:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[sum:High_Salary:qk]&quot;</bucket>
+            </map>
+            <map to='#b5b5b5'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[none:ExpenditurePerCapita:qk]&quot;</bucket>
+            </map>
+            <map to='#db0000'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:ExpenditurePerCapita:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[sum:ExpenditurePerCapita:qk]:1&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[sum:F1:qk]&quot;</bucket>
+            </map>
+            <map to='#e1e1e1'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Mean_Salary:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[sum:Low_Salary:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Mean_Salary:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[sum:Calculation_1074952962651189250:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.089y9wl05ule4y165vf2k0wuli4y].[sum:Mean_Salary:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;USA&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Personal Expenditure' datatype='real' default-format='C1033%' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='57978.637318659326'>
+          <calculation class='tableau' formula='57978.637318659326' />
+          <range max='65469.0' min='39154.0' />
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='DataScienceJM.csv' id='DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='string' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[Skills10]' />
+                  <value name='[Skills11]' />
+                  <value name='[Skills12]' />
+                  <value name='[Skills13]' />
+                  <value name='[Skills14]' />
+                  <value name='[Skills15]' />
+                  <value name='[Skills16]' />
+                  <value name='[Skills17]' />
+                  <value name='[Skills18]' />
+                  <value name='[Skills19]' />
+                  <value name='[Skills1]' />
+                  <value name='[Skills20]' />
+                  <value name='[Skills21]' />
+                  <value name='[Skills22]' />
+                  <value name='[Skills2]' />
+                  <value name='[Skills3]' />
+                  <value name='[Skills4]' />
+                  <value name='[Skills5]' />
+                  <value name='[Skills6]' />
+                  <value name='[Skills7]' />
+                  <value name='[Skills8]' />
+                  <value name='[Skills9]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[DataScienceJM.csv].[Skills10]' />
+                    <field name='[DataScienceJM.csv].[Skills11]' />
+                    <field name='[DataScienceJM.csv].[Skills12]' />
+                    <field name='[DataScienceJM.csv].[Skills13]' />
+                    <field name='[DataScienceJM.csv].[Skills14]' />
+                    <field name='[DataScienceJM.csv].[Skills15]' />
+                    <field name='[DataScienceJM.csv].[Skills16]' />
+                    <field name='[DataScienceJM.csv].[Skills17]' />
+                    <field name='[DataScienceJM.csv].[Skills18]' />
+                    <field name='[DataScienceJM.csv].[Skills19]' />
+                    <field name='[DataScienceJM.csv].[Skills1]' />
+                    <field name='[DataScienceJM.csv].[Skills20]' />
+                    <field name='[DataScienceJM.csv].[Skills21]' />
+                    <field name='[DataScienceJM.csv].[Skills22]' />
+                    <field name='[DataScienceJM.csv].[Skills2]' />
+                    <field name='[DataScienceJM.csv].[Skills3]' />
+                    <field name='[DataScienceJM.csv].[Skills4]' />
+                    <field name='[DataScienceJM.csv].[Skills5]' />
+                    <field name='[DataScienceJM.csv].[Skills6]' />
+                    <field name='[DataScienceJM.csv].[Skills7]' />
+                    <field name='[DataScienceJM.csv].[Skills8]' />
+                    <field name='[DataScienceJM.csv].[Skills9]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.06v2m5e004ghmu13hs5t10d171dl' name='DataScienceJM.csv' table='[DataScienceJM#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='string' name='ID' ordinal='1' />
+                    <column datatype='string' name='Job' ordinal='2' />
+                    <column datatype='string' name='Jobs_Group' ordinal='3' />
+                    <column datatype='string' name='Profile' ordinal='4' />
+                    <column datatype='string' name='Remote' ordinal='5' />
+                    <column datatype='string' name='Company' ordinal='6' />
+                    <column datatype='string' name='State' ordinal='7' />
+                    <column datatype='integer' name='ExpenditurePerCapita' ordinal='8' />
+                    <column datatype='real' name='Low_Salary' ordinal='9' />
+                    <column datatype='real' name='High_Salary' ordinal='10' />
+                    <column datatype='real' name='Mean_Salary' ordinal='11' />
+                    <column datatype='string' name='Education_level' ordinal='12' />
+                    <column datatype='string' name='Skills1' ordinal='13' />
+                    <column datatype='string' name='Skills2' ordinal='14' />
+                    <column datatype='string' name='Skills3' ordinal='15' />
+                    <column datatype='string' name='Skills4' ordinal='16' />
+                    <column datatype='string' name='Skills5' ordinal='17' />
+                    <column datatype='string' name='Skills6' ordinal='18' />
+                    <column datatype='string' name='Skills7' ordinal='19' />
+                    <column datatype='string' name='Skills8' ordinal='20' />
+                    <column datatype='string' name='Skills9' ordinal='21' />
+                    <column datatype='string' name='Skills10' ordinal='22' />
+                    <column datatype='string' name='Skills11' ordinal='23' />
+                    <column datatype='string' name='Skills12' ordinal='24' />
+                    <column datatype='string' name='Skills13' ordinal='25' />
+                    <column datatype='string' name='Skills14' ordinal='26' />
+                    <column datatype='string' name='Skills15' ordinal='27' />
+                    <column datatype='string' name='Skills16' ordinal='28' />
+                    <column datatype='string' name='Skills17' ordinal='29' />
+                    <column datatype='string' name='Skills18' ordinal='30' />
+                    <column datatype='string' name='Skills19' ordinal='31' />
+                    <column datatype='string' name='Skills20' ordinal='32' />
+                    <column datatype='string' name='Skills21' ordinal='33' />
+                    <column datatype='string' name='Skills22' ordinal='34' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='InteractiveFilterByState' name='[Action1_6EAB82BEAA9A4C86A014D45724D7A658]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='DB1' type='sheet' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='DB1' />
+      </command>
+    </action>
+    <action caption='Highlight 3 (generated)' name='[Action4_2FAD7E1E6D5A4ECEA75DEA331E4F2231]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='DB2' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='DB2' />
+      </command>
+    </action>
+    <action caption='Highlight 1 (generated)' name='[Action4_904976694C464B6CA7228B38D247D64A]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='StatesFiltered' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='StatesFiltered' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Disposable Income'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='12'>TOP 15 STATES WITH HIGH DISPOSABLE INCOME</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://vizhub/workbooks/DataScienceJobMarket2023_FreshGraduates/DisposableIncome?rev=' id='101855425' path='/workbooks/DataScienceJobMarket2023_FreshGraduates' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataScienceJM' name='federated.089y9wl05ule4y165vf2k0wuli4y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.089y9wl05ule4y165vf2k0wuli4y'>
+            <column caption='Disposable Income' datatype='real' name='[Calculation_317503794640572418]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Mean_Salary])-AVG([ExpenditurePerCapita])' />
+            </column>
+            <column caption='Expenditure Per Capita' datatype='integer' name='[ExpenditurePerCapita]' role='measure' type='quantitative' />
+            <column caption='Mean Salary' datatype='real' name='[Mean_Salary]' role='measure' type='quantitative' />
+            <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Mean_Salary]' derivation='Avg' name='[avg:Mean_Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_317503794640572418]' derivation='User' name='[usr:Calculation_317503794640572418:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]'>
+            <groupfilter count='15' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='[Calculation_317503794640572418]' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:State:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_317503794640572418:qk]' included-values='in-range' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_317503794640572418:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]</column>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_317503794640572418:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_317503794640572418:qk]' field-type='quantitative' fold='true' major-origin='0.0' major-show='false' major-spacing='10000.0' minor-origin='0.0' minor-show='false' minor-spacing='1000.0' scope='cols' synchronized='true' type='space' />
+            <format attr='title' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_317503794640572418:qk]' scope='cols' value='' />
+            <format attr='title' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Mean_Salary:qk]' scope='cols' value='' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+            <format attr='stroke-size' value='0' />
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_317503794640572418:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Mean_Salary:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]</rows>
+        <cols>([federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Mean_Salary:qk] + [federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_317503794640572418:qk])</cols>
+      </table>
+      <simple-id uuid='{B19CEC05-7D21-4BAF-AA85-02F34E547C72}' />
+    </worksheet>
+    <worksheet name='MarketDemandByRole'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>OVERALL JOB MARKET DEMAND</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://vizhub/workbooks/DataScienceJobMarket2023_FreshGraduates/Sheet8?rev=' id='101855421' path='/workbooks/DataScienceJobMarket2023_FreshGraduates' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataScienceJM' name='federated.089y9wl05ule4y165vf2k0wuli4y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.089y9wl05ule4y165vf2k0wuli4y'>
+            <column caption='CountDistinctJob' datatype='integer' name='[Calculation_403353666586476544]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([ID])' />
+            </column>
+            <column datatype='string' name='[ID]' role='dimension' type='nominal' />
+            <column caption='Top Job group' datatype='string' name='[Jobs Group (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Jobs_Group]' default='&quot;Other&quot;' new-bin='true'>
+                <bin default-name='true' value='&quot;Data Analyst&quot;'>
+                  <value>&quot;Data Analyst&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Jobs Group' datatype='string' name='[Jobs_Group]' role='dimension' type='nominal' />
+            <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Jobs_Group]' derivation='None' name='[none:Jobs_Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_403353666586476544]' derivation='User' name='[usr:Calculation_403353666586476544:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[Action (State)]'>
+            <groupfilter function='level-members' level='[State]' user:ui-action-filter='[Action1_6EAB82BEAA9A4C86A014D45724D7A658]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Jobs_Group:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[Action (State)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' scope='cols' value='' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-align' data-class='subtotal' scope='cols' value='center' />
+            <format attr='vertical-align' data-class='subtotal' scope='cols' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' scope='cols' value='center' />
+            <format attr='vertical-align' scope='cols' value='center' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' />
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[Jobs Group (group)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#0055ff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Jobs_Group:nk]</rows>
+        <cols>[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]</cols>
+      </table>
+      <simple-id uuid='{1DECEB4B-0B59-44F1-AF9D-8F05844739A8}' />
+    </worksheet>
+    <worksheet name='MarketDemandByState'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>JOB MARKET DEMAND PER STATE</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://vizhub/workbooks/DataScienceJobMarket2023_FreshGraduates/Sheet9?rev=' id='101855422' path='/workbooks/DataScienceJobMarket2023_FreshGraduates' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataScienceJM' name='federated.089y9wl05ule4y165vf2k0wuli4y' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.089y9wl05ule4y165vf2k0wuli4y'>
+            <column caption='CountDistinctJob' datatype='integer' name='[Calculation_403353666586476544]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([ID])' />
+            </column>
+            <column datatype='string' name='[ID]' role='dimension' type='nominal' />
+            <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_403353666586476544]' derivation='User' name='[usr:Calculation_403353666586476544:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[Longitude (generated)]' field-type='quantitative' max='40902943.402543709' min='18481269.124890096' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[Latitude (generated)]' field-type='quantitative' max='7496533.435703679' min='993659.38225773827' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dae2f2</color>
+                <color>#c3d3f3</color>
+                <color>#abc4f5</color>
+                <color>#93b4f6</color>
+                <color>#7ca5f8</color>
+                <color>#6395f9</color>
+                <color>#4b85fa</color>
+                <color>#3275fc</color>
+                <color>#1965fd</color>
+                <color>#0055ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' />
+              <text column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]' />
+              <lod column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]' />
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' />
+              <geometry column='[federated.089y9wl05ule4y165vf2k0wuli4y].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.089y9wl05ule4y165vf2k0wuli4y].[Latitude (generated)]</rows>
+        <cols>[federated.089y9wl05ule4y165vf2k0wuli4y].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{900CF02D-8CFC-4B95-83FE-7322C4A3B532}' />
+    </worksheet>
+    <worksheet name='Qualification'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='12'>REQUIRED QUALIFICATIONS</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataScienceJM' name='federated.089y9wl05ule4y165vf2k0wuli4y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.089y9wl05ule4y165vf2k0wuli4y'>
+            <column caption='CountDistinctJob' datatype='integer' name='[Calculation_403353666586476544]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([ID])' />
+            </column>
+            <column caption='Education level' datatype='string' name='[Education_level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[ID]' role='dimension' type='nominal' />
+            <column caption='Jobs Group' datatype='string' name='[Jobs_Group]' role='dimension' type='nominal' />
+            <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Education_level]' derivation='None' name='[none:Education_level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Jobs_Group]' derivation='None' name='[none:Jobs_Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_403353666586476544]' derivation='User' name='[usr:Calculation_403353666586476544:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Jobs_Group:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Jobs_Group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]' filter-group='3'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:State:nk]' />
+              <groupfilter function='member' level='[none:State:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Education_level:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Jobs_Group:nk]</column>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' scope='cols' value='' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dae2f2</color>
+                <color>#c3d3f3</color>
+                <color>#abc4f5</color>
+                <color>#93b4f6</color>
+                <color>#7ca5f8</color>
+                <color>#6395f9</color>
+                <color>#4b85fa</color>
+                <color>#3275fc</color>
+                <color>#1965fd</color>
+                <color>#0055ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' />
+              <text column='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#e1e1e1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Education_level:nk]</rows>
+        <cols>[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]</cols>
+      </table>
+      <simple-id uuid='{23A0A03C-DC9C-4766-85F5-75E7D32CE6AE}' />
+    </worksheet>
+    <worksheet name='Salary'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='12'>TOP 15 STATES WITH HIGH SALARY</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://vizhub/workbooks/DataScienceJobMarket2023_FreshGraduates/Salary?rev=' id='101855424' path='/workbooks/DataScienceJobMarket2023_FreshGraduates' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataScienceJM' name='federated.089y9wl05ule4y165vf2k0wuli4y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.089y9wl05ule4y165vf2k0wuli4y'>
+            <column caption='Mean Salary' datatype='real' name='[Mean_Salary]' role='measure' type='quantitative' />
+            <column caption='Is it California?' datatype='string' name='[State (group)]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <calculation class='categorical-bin' column='[State]' default='&quot;No&quot;' new-bin='true'>
+                <bin default-name='false' value='&quot;Yes&quot;'>
+                  <value>&quot;California&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Mean_Salary]' derivation='Avg' name='[avg:Mean_Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]'>
+            <groupfilter count='15' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='AVG([Mean_Salary])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:State:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Mean_Salary:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Mean_Salary:qk]' scope='cols' value='' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]' value='19' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[State (group)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e1e1e1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]</rows>
+        <cols>[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Mean_Salary:qk]</cols>
+      </table>
+      <simple-id uuid='{003E0029-AD25-41C8-B648-C2BDF08C603B}' />
+    </worksheet>
+    <worksheet name='Skills'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='12'>TOP 15 HIGH REQUIRED SKILLS</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataScienceJM' name='federated.089y9wl05ule4y165vf2k0wuli4y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.089y9wl05ule4y165vf2k0wuli4y'>
+            <column caption='Jobs Group' datatype='string' name='[Jobs_Group]' role='dimension' type='nominal' />
+            <column caption='Skill' datatype='string' name='[Pivot Field Values]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='DataScienceJM.csv' datatype='integer' name='[__tableau_internal_object_id__].[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]' role='measure' type='quantitative' />
+            <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='DataScienceJM.csv' datatype='table' name='[__tableau_internal_object_id__].[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Jobs_Group]' derivation='None' name='[none:Jobs_Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='None' name='[none:Pivot Field Values:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Jobs_Group:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Jobs_Group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Pivot Field Values:nk]'>
+            <groupfilter count='15' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB])' function='order' user:ui-marker='order'>
+                <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='level-members' level='[none:Pivot Field Values:nk]' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='%null%' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;Bachelor&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;MBA&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;Master&quot;' />
+                    <groupfilter function='member' level='[none:Pivot Field Values:nk]' member='&quot;PhD&quot;' />
+                  </groupfilter>
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]' filter-group='3'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:State:nk]' />
+              <groupfilter function='member' level='[none:State:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Pivot Field Values:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.089y9wl05ule4y165vf2k0wuli4y].[__tableau_internal_object_id__].[cnt:DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Jobs_Group:nk]</column>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]</column>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Pivot Field Values:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[__tableau_internal_object_id__].[cnt:DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dae2f2</color>
+                <color>#c3d3f3</color>
+                <color>#abc4f5</color>
+                <color>#93b4f6</color>
+                <color>#7ca5f8</color>
+                <color>#6395f9</color>
+                <color>#4b85fa</color>
+                <color>#3275fc</color>
+                <color>#1965fd</color>
+                <color>#0055ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[__tableau_internal_object_id__].[cnt:DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB:qk]' />
+              <text column='[federated.089y9wl05ule4y165vf2k0wuli4y].[__tableau_internal_object_id__].[cnt:DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Pivot Field Values:nk]</rows>
+        <cols>[federated.089y9wl05ule4y165vf2k0wuli4y].[__tableau_internal_object_id__].[cnt:DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB:qk]</cols>
+      </table>
+      <simple-id uuid='{0B518662-2BEE-47B4-A569-660CEA9EB9A1}' />
+    </worksheet>
+    <worksheet name='StatesFiltered'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='12'>STATES THAT BEST FIT YOU</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://vizhub/workbooks/DataScienceJobMarket2023_FreshGraduates/DisposableIncome2?rev=' id='101855426' path='/workbooks/DataScienceJobMarket2023_FreshGraduates' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataScienceJM' name='federated.089y9wl05ule4y165vf2k0wuli4y' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Personal Expenditure' datatype='real' default-format='C1033%' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='57978.637318659326'>
+              <calculation class='tableau' formula='57978.637318659326' />
+              <range max='65469.0' min='39154.0' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.089y9wl05ule4y165vf2k0wuli4y'>
+            <column caption='Check Exp' datatype='boolean' name='[Calculation_1074952962645217281]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[ExpenditurePerCapita]&lt;=[Parameters].[Parameter 1]' />
+            </column>
+            <column caption='Calculated Disposable Income' datatype='real' name='[Calculation_1074952962651189250]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Mean_Salary]-[Parameters].[Parameter 1]' />
+            </column>
+            <column caption='Disposable Income' datatype='real' name='[Calculation_317503794640572418]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Mean_Salary])-AVG([ExpenditurePerCapita])' />
+            </column>
+            <column caption='Expenditure Per Capita' datatype='integer' name='[ExpenditurePerCapita]' role='measure' type='quantitative' />
+            <column caption='Mean Salary' datatype='real' name='[Mean_Salary]' role='measure' type='quantitative' />
+            <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Calculation_1074952962651189250]' derivation='Avg' name='[avg:Calculation_1074952962651189250:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ExpenditurePerCapita]' derivation='Avg' name='[avg:ExpenditurePerCapita:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Mean_Salary]' derivation='Avg' name='[avg:Mean_Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1074952962645217281]' derivation='None' name='[none:Calculation_1074952962645217281:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_317503794640572418]' derivation='User' name='[usr:Calculation_317503794640572418:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Calculation_1074952962645217281:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1074952962645217281:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]'>
+            <groupfilter count='15' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='AVG([Calculation_1074952962651189250])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:State:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_317503794640572418:qk]' included-values='in-range' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Calculation_1074952962651189250:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]</column>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_317503794640572418:qk]</column>
+            <column>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Calculation_1074952962645217281:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Mean_Salary:qk]' scope='cols' value='' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+            <format attr='stroke-size' value='0' />
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <encoding attr='space' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:ExpenditurePerCapita:qk]' field-type='quantitative' fold='true' major-origin='0.0' major-show='false' major-spacing='10000.0' minor-origin='0.0' minor-show='false' minor-spacing='1000.0' scope='cols' synchronized='true' type='space' />
+            <format attr='title' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Calculation_1074952962651189250:qk]' scope='cols' value='' />
+            <format attr='title' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:ExpenditurePerCapita:qk]' scope='cols' value='' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' value='Your Discretionary Income'>
+              <formatted-text>
+                <run>Your Discretionary Income</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Mean_Salary:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:ExpenditurePerCapita:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Calculation_1074952962651189250:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]</rows>
+        <cols>([federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Mean_Salary:qk] + ([federated.089y9wl05ule4y165vf2k0wuli4y].[avg:ExpenditurePerCapita:qk] + [federated.089y9wl05ule4y165vf2k0wuli4y].[avg:Calculation_1074952962651189250:qk]))</cols>
+      </table>
+      <simple-id uuid='{DB2E72C9-4C70-4E62-B240-1E986316AF1B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='DB1'>
+      <repository-location derived-from='https://vizhub/workbooks/DataScienceJobMarket2023_FreshGraduates/DB1?rev=' id='101855430' path='/workbooks/DataScienceJobMarket2023_FreshGraduates' revision='' />
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98148' id='42' param='horz' type-v2='layout-flow' w='99064' x='468' y='926'>
+            <zone h='98148' id='6' type-v2='layout-basic' w='99064' x='468' y='926'>
+              <zone forceUpdate='true' h='13773' id='16' type-v2='text' w='99064' x='468' y='28587'>
+                <formatted-text>
+                  <run bold='true' fontalignment='1' fontcolor='#0055ff' fontsize='12'>California</run>
+                  <run fontalignment='1' fontcolor='#00007f' fontsize='12'>Æ </run>
+                  <run fontalignment='1' fontcolor='#333333' fontsize='12'>leads all states in the number of job opportunities available.</run>
+                  <run fontalignment='1'>Æ&#10;</run>
+                  <run fontalignment='1' fontcolor='#000000' fontsize='12'>Additionally, it also offers the most opportunities for data analysts.</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='10068' id='17' type-v2='text' w='99064' x='468' y='926'>
+                <formatted-text>
+                  <run bold='true' fontalignment='1' fontcolor='#0055ff' fontsize='12'>Data analyst</run>
+                  <run fontalignment='1' fontcolor='#333333' fontsize='12'> is the postion with highest market demand.</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='17593' id='40' name='MarketDemandByRole' show-title='false' w='99064' x='468' y='10994'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='56714' id='44' name='MarketDemandByState' show-title='false' w='99064' x='468' y='42360'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='108' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98148' id='107' param='vert' type-v2='layout-flow' w='99064' x='468' y='926'>
+                <zone forceUpdate='true' h='10068' id='17' type-v2='text' w='99064' x='468' y='926'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#0055ff' fontsize='12'>Data analyst</run>
+                    <run fontalignment='1' fontcolor='#333333' fontsize='12'> is the postion with highest market demand.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='133' h='17593' id='40' is-fixed='true' name='MarketDemandByRole' show-title='false' w='99064' x='468' y='10994'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='13773' id='16' type-v2='text' w='99064' x='468' y='28587'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#0055ff' fontsize='12'>California</run>
+                    <run fontalignment='1' fontcolor='#00007f' fontsize='12'>Æ </run>
+                    <run fontalignment='1' fontcolor='#333333' fontsize='12'>leads all states in the number of job opportunities available.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='12'>Additionally, it also offers the most opportunities for data analysts.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='56714' id='44' is-fixed='true' name='MarketDemandByState' show-title='false' w='99064' x='468' y='42360'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0BBA894B-1F8B-42BD-ABD1-247AD22A1A13}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='DB2'>
+      <repository-location derived-from='https://vizhub/workbooks/DataScienceJobMarket2023_FreshGraduates/DB2b?rev=' id='101855432' path='/workbooks/DataScienceJobMarket2023_FreshGraduates' revision='' />
+      <style>
+        <style-rule element='dash-title'>
+          <format attr='text-align' value='center' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource name='Parameters' />
+      </datasources>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Personal Expenditure' datatype='real' default-format='C1033%' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='57978.637318659326'>
+          <calculation class='tableau' formula='57978.637318659326' />
+          <range max='65469.0' min='39154.0' />
+        </column>
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='90046' id='101' param='horz' type-v2='layout-flow' w='99064' x='468' y='9028'>
+            <zone h='90046' id='45' param='horz' type-v2='layout-flow' w='89702' x='468' y='9028'>
+              <zone h='90046' id='5' type-v2='layout-basic' w='89702' x='468' y='9028'>
+                <zone h='44444' id='99' name='StatesFiltered' w='89702' x='468' y='54630'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45602' id='104' name='Disposable Income' w='44851' x='45319' y='9028'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45602' id='105' name='Salary' w='44851' x='468' y='9028'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='90046' id='100' is-fixed='true' param='vert' type-v2='layout-flow' w='9362' x='90170' y='9028'>
+              <zone fixed-size='490' h='57639' id='102' is-fixed='true' name='StatesFiltered' pane-specification-id='5' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' show-title='false' type-v2='color' w='9362' x='90170' y='9028'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8218' id='103' mode='slider' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='9362' x='90170' y='66667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='8102' id='11' type-v2='text' w='99064' x='468' y='926'>
+            <formatted-text>
+              <run fontalignment='1' fontcolor='#000000'>Despite the promising number of job opportunities, </run>
+              <run bold='true' fontalignment='1' fontcolor='#0055ff'>California </run>
+              <run fontalignment='1' fontcolor='#000000'>does not appear to be the top destination for data science job seekers in terms of average salary and disposable income. The state falls into the middle tier.</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#0055ff'>Maryland, New Jersey, and Virginia</run>
+              <run fontalignment='1' fontcolor='#000000'>, however, seem more promising with their higher rankings in both salary and disposable income.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='115' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98148' id='114' param='vert' type-v2='layout-flow' w='99064' x='468' y='926'>
+                <zone forceUpdate='true' h='8102' id='11' type-v2='text' w='99064' x='468' y='926'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000'>Despite the promising number of job opportunities, </run>
+                    <run bold='true' fontalignment='1' fontcolor='#0055ff'>California </run>
+                    <run fontalignment='1' fontcolor='#000000'>does not appear to be the top destination for data science job seekers in terms of average salary and disposable income. The state falls into the middle tier.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#0055ff'>Maryland, New Jersey, and Virginia</run>
+                    <run fontalignment='1' fontcolor='#000000'>, however, seem more promising with their higher rankings in both salary and disposable income.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45602' id='105' is-fixed='true' name='Salary' w='44851' x='468' y='9028'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45602' id='104' is-fixed='true' name='Disposable Income' w='44851' x='45319' y='9028'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44444' id='99' is-fixed='true' name='StatesFiltered' w='89702' x='468' y='54630'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='490' h='57639' id='102' name='StatesFiltered' pane-specification-id='5' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' show-title='false' type-v2='color' w='9362' x='90170' y='9028'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8218' id='103' mode='slider' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='9362' x='90170' y='66667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{6B1F51F8-20C3-429B-841B-7F9843A4CB71}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='DB3'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='DataScienceJM' name='federated.089y9wl05ule4y165vf2k0wuli4y' />
+      </datasources>
+      <datasource-dependencies datasource='federated.089y9wl05ule4y165vf2k0wuli4y'>
+        <column caption='Jobs Group' datatype='string' name='[Jobs_Group]' role='dimension' type='nominal' />
+        <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column-instance column='[Jobs_Group]' derivation='None' name='[none:Jobs_Group:nk]' pivot='key' type='nominal' />
+        <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98148' id='12' param='horz' type-v2='layout-flow' w='99064' x='468' y='926'>
+            <zone h='98148' id='5' param='horz' type-v2='layout-flow' w='89702' x='468' y='926'>
+              <zone h='98148' id='3' type-v2='layout-basic' w='89702' x='468' y='926'>
+                <zone h='27892' id='70' name='Qualification' w='89702' x='468' y='926'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='70256' id='79' name='Skills' w='89702' x='468' y='28818'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98148' id='11' is-fixed='true' param='vert' type-v2='layout-flow' w='9362' x='90170' y='926'>
+              <zone h='15741' id='13' name='Qualification' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Jobs_Group:nk]' type-v2='filter' values='database' w='9362' x='90170' y='926'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='5556' id='90' mode='checkdropdown' name='Skills' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]' type-v2='filter' values='database' w='9362' x='90170' y='16667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='100' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98148' id='99' param='vert' type-v2='layout-flow' w='99064' x='468' y='926'>
+                <zone h='15741' id='13' mode='checkdropdown' name='Qualification' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:Jobs_Group:nk]' type-v2='filter' values='database' w='9362' x='90170' y='926'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='216' h='27892' id='70' is-fixed='true' name='Qualification' w='44851' x='468' y='926'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5556' id='90' mode='checkdropdown' name='Skills' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]' type-v2='filter' values='database' w='9362' x='90170' y='16667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='70256' id='79' is-fixed='true' name='Skills' w='44851' x='468' y='28818'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CAD4D343-EEA5-4C7E-87AE-B10A17E809CA}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>EXPORING THE DATA SCIENCE JOB MARKET FOR FRESH GRADUATES IN THE US IN 2023</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://vizhub/workbooks/DataScienceJobMarket2023_FreshGraduates/Story3?rev=' id='101855434' path='/workbooks/DataScienceJobMarket2023_FreshGraduates' revision='' />
+      <style>
+        <style-rule element='story-description'>
+          <format attr='vertical-align' value='center' />
+          <format attr='border-width' value='0' />
+          <format attr='border-style' value='none' />
+        </style-rule>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='226' />
+          <format attr='background-color' value='#c0c0c0' />
+        </style-rule>
+        <style-rule element='story-title'>
+          <format attr='text-align' value='center' />
+        </style-rule>
+      </style>
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='2905' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='3735' />
+            <zone h='84958' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14212'>
+              <flipboard active-id='2' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='How are the Data Science job opportunities for fresh graduates/junior level in the US?' captured-sheet='DB1' id='3'>
+                    <capturedDeltas>
+                      <worksheet name='MarketDemandByState'>
+                        <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[Action (Jobs Group (group),Jobs Group)]' />
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[Latitude (generated)]' field-type='quantitative' max='6993551.2125536036' min='2552000.8212327347' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                            <encoding attr='space' class='0' field='[federated.089y9wl05ule4y165vf2k0wuli4y].[Longitude (generated)]' field-type='quantitative' max='33260846.151197217' min='23743238.210316334' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='Would a state offering more opportunites actually an ideal place to start your career in Data Science?' captured-sheet='DB2' id='1'>
+                    <capturedDeltas>
+                      <datasource name='Parameters'>
+                        <column name='[Parameter 1]' value='55293.164582291145' />
+                      </datasource>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='What should be prepared for a job in Data Science?' captured-sheet='DB3' id='2'>
+                    <capturedDeltas>
+                      <worksheet name='Qualification'>
+                        <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]'>
+                          <groupfilter function='level-members' level='[none:State:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Qualification vs Salary'>
+                        <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]'>
+                          <groupfilter function='level-members' level='[none:State:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Skills'>
+                        <filter class='categorical' column='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]'>
+                          <groupfilter function='level-members' level='[none:State:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+                        </filter>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{2D624D3B-F399-4FA9-AAE6-D232286C4041}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='MarketDemandByRole'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[Jobs Group (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F0D83F23-788F-4B29-8EFC-A5BFF30F52F5}' />
+    </window>
+    <window class='worksheet' name='MarketDemandByState'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F963F74C-4144-4D71-9C04-4C2375800935}' />
+    </window>
+    <window class='worksheet' name='Salary'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.089y9wl05ule4y165vf2k0wuli4y].[none:State:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[State (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6D30907A-464E-4521-94D8-2DDE6409D5B3}' />
+    </window>
+    <window class='worksheet' name='Disposable Income'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' show-title='false' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{14A3CAA9-AC4D-4F6B-A819-5DC7ECB13101}' />
+    </window>
+    <window class='worksheet' name='StatesFiltered'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='259'>
+            <card pane-specification-id='5' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[:Measure Names]' show-title='false' type='color' />
+            <card mode='slider' param='[Parameters].[Parameter 1]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8E1D5441-098A-46AE-B19E-BECB86F7EFE7}' />
+    </window>
+    <window class='worksheet' name='Qualification'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[usr:Calculation_403353666586476544:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E0398BF1-F282-472B-A596-92C800AC10B8}' />
+    </window>
+    <window class='worksheet' name='Skills'>
+      <cards>
+        <edge name='left'>
+          <strip size='240'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='46'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.089y9wl05ule4y165vf2k0wuli4y].[__tableau_internal_object_id__].[cnt:DataScienceJM.csv_89165E5093944B26889E1E2449B6ACEB:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B19032CC-D1E1-4EF4-B737-92E969671DF5}' />
+    </window>
+    <window class='dashboard' name='DB1'>
+      <viewpoints>
+        <viewpoint name='MarketDemandByRole' />
+        <viewpoint name='MarketDemandByState'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='2' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{12FD7BD6-4521-4859-A414-5B486C731B2C}' />
+    </window>
+    <window class='dashboard' name='DB2'>
+      <viewpoints>
+        <viewpoint name='Disposable Income'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Salary'>
+          <zoom type='fit-height' />
+        </viewpoint>
+        <viewpoint name='StatesFiltered'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{B99DB117-423B-4549-858D-5DBC37DB3143}' />
+    </window>
+    <window class='dashboard' name='DB3'>
+      <viewpoints>
+        <viewpoint name='Qualification' />
+        <viewpoint name='Skills'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{F1FAA176-9062-4E97-8B6C-90AD70C6F244}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{2FE1BC06-B08C-4C80-9E56-60DF11BEC051}' />
+    </window>
+  </windows>
+</workbook>
