@@ -7,7 +7,9 @@
 
 **Targeted Audience**
 
-- Fresh graduates from Data Science related programs in the US.
+- Fresh graduates from Data Science related programs in the US
+
+**Link to publised dashboard:** [**HERE**](https://public.tableau.com/views/DataScienceJobMarket2023_FreshGraduates/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## 2. The Dataset
 The final dataset is combined from 2 sources:
