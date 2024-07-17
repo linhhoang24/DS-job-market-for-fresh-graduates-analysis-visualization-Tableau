@@ -11,7 +11,7 @@
 
 **Link to publised dashboard:** [**HERE**](https://public.tableau.com/views/DataScienceJobMarket2023_FreshGraduates/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-![Dashboard](DB1.png)
+![Dashboard](Sample_Viz/DB1.png)
 
 ## 2. The Dataset
 The final dataset is combined from 2 sources:
@@ -64,10 +64,10 @@ The final dataset is combined from 2 sources:
 - The dashboard provides a space for users to actively interact with the research journey to find the states that best fit them
 - Users can customize their budgets for different categories such as housing, transportation, food, insurance and pensions, and others, to calculate the total personal expenditure. The list of states is then filtered to those with average expenditures approximately equal to the user’s total annual expenditure displayed.
 
-![Interactive1](Interactive1.png)
+![Interactive1](Sample_Viz/Interactive1.png)
 
 - Users can also use the filter to see the specific requirements of skills and qualification by job position and/or by location.
   
-![Interactive2](Interactive2.png)
+![Interactive2](Sample_Viz/Interactive2.png)
 
 
