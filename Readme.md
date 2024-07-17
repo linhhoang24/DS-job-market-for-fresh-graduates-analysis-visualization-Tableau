@@ -11,6 +11,8 @@
 
 **Link to publised dashboard:** [**HERE**](https://public.tableau.com/views/DataScienceJobMarket2023_FreshGraduates/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+![Dashboard](DB1.png)
+
 ## 2. The Dataset
 The final dataset is combined from 2 sources:
 - U.S. Bureau of Labor Statistics. (2024, May 2). Consumer Expenditure Survey. U.S. Bureau of Labor Statistics. https://www.bls.gov/cex/tables.htm#topline 
