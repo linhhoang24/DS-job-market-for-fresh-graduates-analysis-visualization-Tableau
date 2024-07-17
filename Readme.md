@@ -34,34 +34,33 @@ The final dataset is combined from 2 sources:
 - **Skills1-22:** Skills required for the role
 
 
-## 3. Analysis and key findings
-Data showed that Data analyst is the position with highest market demand in the US in 2023.
+## 3. Metrics and Dimensions
+  - Total job opportunities per locations
+  - Total job opportunities per job titles
+  - Total job opportunities that required specific skill, qualification
+  - Average salary
+  - Average expenditure per capita
+  - Average disposable income
 
-![Viz1](Viz1.png)
+## 4. Summary of Insights
+**Job opportunies per locations, job titles:**
+  - Data showed that Data analyst is the position with highest market demand in the US in 2023.
+  - California leads all states in the number of job opportunities available. It also offers the most opportunities for data analyst role.
+  
+**Average salary, expenditure and disposable income:**
+  - California offers the highest number job opportunities, however ranks among the middle group in terms of both high salaries and disposable income. 
+  - Other states—such as Maryland, New Jersey, and Virginia—though with fewer opportunities available, seem more promising with their higher rankings. 
 
-California leads all states in the number of job opportunities available. It also offers the most opportunities for data analyst role.
-
-![Viz2](Viz2.png)
-
-However, California or any state that offers more job opportunities is not actually an ideal place to start your career in data science. By taking into account the Salary and diposable income into consideration, our findings indicate that despite the promising number of job opportunities, California ranks among the middle group in terms of both high salaries and disposable income. 
-
-![Viz3](Viz3.png)
-
-Other states—such as Maryland, New Jersey, and Virginia—though with fewer opportunities available, seem more promising with their higher rankings. 
-
-
-As such, it is recommended that graduates should weigh the abundance of opportunities against the cost of living and potential earnings. Opting for states with a balanced offering of job opportunities and financial benefits can lead to a more sustainable and rewarding career path.
-
-![Viz4](Viz4.png)
-
-Regarding qualifications and skills required for the field, overall, around one half of the opportunities require at least a bachelor's degree. However, it is worth noting that for around one-third samples in ourdataset, the qualification requirement was not specified. One of the possible reasons for that could be employers are willing to consider candidates who may not have traditional educational backgrounds but possess strong relevant skills and practical experience.
-
-![Viz5](Viz5.png)
-
-On the other hand, SQL, Office, Excel, Python, Tableau, and PowerBI are among the top highly perferred practical skills by employers. This is implied that candiates with or without relevant qualifications both should leverage their hands-on experience and build strong portfolios showcasing their proficiency in those skills to stay competitive. 
+**Total job opportunities that required specific skills, qualification:**
+- Around one half of the opportunities require at least a bachelor's degree.
+- However, around one-third of the job opportunities did not specify the qualification requirement -> Employers might be willing to consider candidates who may not have traditional educational backgrounds but possess strong relevant skills and practical experience.
+- SQL, Office, Excel, Python, Tableau, and PowerBI are among the top highly perferred practical skills by employers.
+## 5. Recommendations
+- Graduates should weigh the abundance of opportunities against the cost of living and potential earnings. Opting for states with a balanced offering of job opportunities and financial benefits can lead to a more sustainable and rewarding career path.
+- Candiates with or without relevant qualifications both should leverage their hands-on experience and build strong portfolios showcasing their proficiency in those skills to stay competitive. 
 
 
-## 4. Getting valuable insinghts for your specific profile and needs
+## 6. Getting valuable insinghts for your specific profile and needs
 - The dashboard provides a space for users to actively interact with the research journey to find the states that best fit them
 - Users can customize their budgets for different categories such as housing, transportation, food, insurance and pensions, and others, to calculate the total personal expenditure. The list of states is then filtered to those with average expenditures approximately equal to the user’s total annual expenditure displayed.
 
